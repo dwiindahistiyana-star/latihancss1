@@ -1,17 +1,17 @@
 /* Gaya untuk header website dan navigasi utama */
 body {
   margin: 0;
-  background-color: #f7f0e5;
-  color: #4b382a;
+  background-color: #f1f4f8;
+  color: #243247;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header dan navigasi utama */
 .site-header {
   padding: 32px 20px 20px;
-  color: #fffaf2;
+  color: #ffffff;
   text-align: center;
-  background: linear-gradient(135deg, #5b3a29, #8b5e3c);
+  background: linear-gradient(135deg, #123b5d, #167c80);
 }
 
 .site-header h1 {
@@ -21,7 +21,7 @@ body {
 
 .site-header p {
   margin: 0 0 24px;
-  color: #f3e5d0;
+  color: #e2f2f2;
 }
 
 .site-header nav {
@@ -33,9 +33,9 @@ body {
 
 .site-header nav a {
   padding: 10px 16px;
-  border: 1px solid rgb(255 250 242 / 45%);
+  border: 1px solid rgb(255 255 255 / 35%);
   border-radius: 999px;
-  color: #fffaf2;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   transition:
@@ -45,8 +45,8 @@ body {
 
 .site-header nav a:hover,
 .site-header nav a:focus-visible {
-  color: #5b3a29;
-  background-color: #fffaf2;
+  color: #123b5d;
+  background-color: #ffffff;
 }
 
 /* Tata letak dan tampilan konten utama */
@@ -63,25 +63,25 @@ main > table[role="presentation"] {
 main > table[role="presentation"] > tbody > tr > td {
   padding: 20px;
   vertical-align: top;
-  background-color: #fffaf2;
+  background-color: #ffffff;
   border-radius: 12px;
 }
 
 main > table[role="presentation"] > tbody > tr > td:first-child {
   width: 28%;
-  background-color: #e8d5bd;
+  background-color: #dce8f5;
 }
 
 /* Panel informasi tambahan di sisi kiri */
 main aside h2 {
   margin-top: 0;
   padding-bottom: 12px;
-  border-bottom: 2px solid #c8ad8f;
+  border-bottom: 2px solid #b8cbd5;
   text-align: left;
 }
 
 main h2 {
-  color: #5b3a29;
+  color: #123b5d;
   text-align: center;
 }
 
@@ -95,8 +95,8 @@ main details {
 main blockquote {
   margin: 20px 0;
   padding: 12px 18px;
-  border-left: 4px solid #8b5e3c;
-  background-color: #f5ead9;
+  border-left: 4px solid #167c80;
+  background-color: #eef7f7;
 }
 
 main figure {
@@ -112,7 +112,7 @@ main figure img {
 
 main figcaption {
   margin-top: 8px;
-  color: #80664f;
+  color: #526274;
   font-size: 0.9rem;
 }
 
@@ -124,27 +124,27 @@ main section[id] {
 main details {
   margin: 12px 0;
   overflow: hidden;
-  border: 1px solid #d6c0a4;
+  border: 1px solid #c9dce4;
   border-radius: 10px;
-  background-color: #fffaf2;
+  background-color: #ffffff;
   text-align: left;
 }
 
 main details summary {
   padding: 14px 18px;
-  color: #5b3a29;
+  color: #123b5d;
   font-weight: 700;
   cursor: pointer;
-  background-color: #efe0ca;
+  background-color: #e8f1f6;
 }
 
 main details summary:hover,
 main details summary:focus-visible {
-  background-color: #e7d0b2;
+  background-color: #dff1ef;
 }
 
 main details[open] summary {
-  border-bottom: 1px solid #d6c0a4;
+  border-bottom: 1px solid #c9dce4;
 }
 
 main details p {
@@ -161,52 +161,52 @@ main details p {
 .destination-grid > section {
   padding: 16px;
   border-radius: 10px;
-  background-color: #f7f0e5;
+  background-color: #f1f4f8;
 }
 
 .destination-grid h3 {
-  color: #8b5e3c;
+  color: #167c80;
 }
 
 /* Tabel perbandingan destinasi */
 .table-scroll {
   overflow-x: auto;
   border-radius: 12px;
-  box-shadow: 0 6px 18px rgb(91 58 41 / 10%);
+  box-shadow: 0 6px 18px rgb(18 59 93 / 10%);
 }
 
 .destination-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #fffaf2;
+  background-color: #ffffff;
   text-align: left;
 }
 
 .destination-table caption {
   padding: 14px 16px;
-  color: #80664f;
+  color: #526274;
   font-weight: 600;
   text-align: left;
-  background-color: #efe0ca;
+  background-color: #e8f1f6;
 }
 
 .destination-table th,
 .destination-table td {
   padding: 14px 16px;
-  border-bottom: 1px solid #d8c3a8;
+  border-bottom: 1px solid #dce5ec;
 }
 
 .destination-table th {
-  color: #fffaf2;
-  background-color: #5b3a29;
+  color: #ffffff;
+  background-color: #123b5d;
 }
 
 .destination-table tbody tr:nth-child(even) {
-  background-color: #f3e7d5;
+  background-color: #f1f7f8;
 }
 
 .destination-table tbody tr:hover {
-  background-color: #e7d0b2;
+  background-color: #dff1ef;
 }
 
 .destination-table tbody tr:last-child td {
@@ -216,14 +216,14 @@ main details p {
 /* Formulir pesan */
 main form fieldset {
   padding: 20px;
-  border: 1px solid #d6c0a4;
+  border: 1px solid #c9dce4;
   border-radius: 12px;
-  background-color: #fcf7ee;
+  background-color: #f8fbfc;
 }
 
 main form legend {
   padding: 0 8px;
-  color: #5b3a29;
+  color: #123b5d;
   font-weight: 700;
 }
 
@@ -235,7 +235,7 @@ main form fieldset > p {
 main form label {
   display: block;
   margin-bottom: 6px;
-  color: #4b382a;
+  color: #243247;
   font-weight: 600;
 }
 
@@ -245,11 +245,11 @@ main form textarea {
   box-sizing: border-box;
   width: 100%;
   padding: 10px 12px;
-  border: 1px solid #c8ad8f;
+  border: 1px solid #b8cbd5;
   border-radius: 7px;
-  color: #4b382a;
+  color: #243247;
   font: inherit;
-  background-color: #fffaf2;
+  background-color: #ffffff;
 }
 
 main form textarea {
@@ -259,8 +259,8 @@ main form textarea {
 main form input:focus,
 main form select:focus,
 main form textarea:focus {
-  border-color: #8b5e3c;
-  outline: 3px solid rgb(139 94 60 / 18%);
+  border-color: #167c80;
+  outline: 3px solid rgb(22 124 128 / 18%);
 }
 
 main form button {
@@ -268,35 +268,35 @@ main form button {
   padding: 10px 16px;
   border: 0;
   border-radius: 7px;
-  color: #fffaf2;
+  color: #ffffff;
   font: inherit;
   font-weight: 700;
   cursor: pointer;
-  background-color: #8b5e3c;
+  background-color: #167c80;
 }
 
 main form button:hover,
 main form button:focus-visible {
-  background-color: #5b3a29;
+  background-color: #123b5d;
 }
 
 main form button[type="reset"] {
-  color: #5b3a29;
-  background-color: #e8d5bd;
+  color: #123b5d;
+  background-color: #dce8f5;
 }
 
 main form button[type="reset"]:hover,
 main form button[type="reset"]:focus-visible {
-  background-color: #d6c0a4;
+  background-color: #c9dce4;
 }
 
 /* Footer website */
 footer {
   margin-top: 32px;
   padding: 28px 20px;
-  color: #f3e5d0;
+  color: #e2f2f2;
   text-align: center;
-  background: linear-gradient(135deg, #5b3a29, #8b5e3c);
+  background: linear-gradient(135deg, #123b5d, #167c80);
 }
 
 footer address {
@@ -312,17 +312,17 @@ footer p {
 footer a {
   display: inline-block;
   padding: 8px 14px;
-  border: 1px solid rgb(255 250 242 / 55%);
+  border: 1px solid rgb(255 255 255 / 45%);
   border-radius: 999px;
-  color: #fffaf2;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
 }
 
 footer a:hover,
 footer a:focus-visible {
-  color: #5b3a29;
-  background-color: #fffaf2;
+  color: #123b5d;
+  background-color: #ffffff;
 }
 
 /* Tips wisata dan daftar perlengkapan */
@@ -334,14 +334,14 @@ footer a:focus-visible {
 
 .tips-grid > section {
   padding: 18px 22px;
-  border: 1px solid #d8c3a8;
+  border: 1px solid #dce5ec;
   border-radius: 10px;
-  background-color: #fcf7ee;
+  background-color: #f8fbfc;
 }
 
 .tips-grid h3 {
   margin-top: 0;
-  color: #8b5e3c;
+  color: #167c80;
   line-height: 1.5;
 }
 
@@ -354,4 +354,4 @@ footer a:focus-visible {
   margin: 10px 0;
   padding-left: 4px;
   line-height: 1.6;
-}
+    }
